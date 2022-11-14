@@ -1,4 +1,29 @@
+# Chuan bi 
+
+Cai dat goi can thiet 
+
+```
+apt update -y
+apt install git -y 
+
+```
+
+Tai bo cai
+```
+git clone https://github.com/congto/tanzu-tap-local.git
+```
+
+Cai dat
+
+```
+cd tanzu-tap-local
+```
+###########################
+
+
+
 # Overview
+
 
 ## Setup Kind
 
