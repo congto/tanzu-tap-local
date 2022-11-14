@@ -17,7 +17,19 @@ Cai dat
 
 ```
 cd tanzu-tap-local
+
+chmod +x *.sh 
+
 ```
+
+```
+./pre-install.sh
+```
+
+```
+./kind-setup.sh
+```
+
 ###########################
 
 
