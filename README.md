@@ -23,11 +23,11 @@ chmod +x *.sh
 ```
 
 ```
-./pre-install.sh
+bash pre-install.sh
 ```
 
 ```
-./kind-setup.sh
+bash kind-setup.sh
 ```
 
 ###########################
