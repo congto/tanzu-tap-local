@@ -39,6 +39,18 @@ docker inspect -f '{{.NetworkSettings.IPAddress}} dev.local' dev.local | (sudo t
 
 
 
+### Cai dat tanzu essentials
+
+```
+bash tanzu-cluster-essentials.sh tcvn1985@gmail.com XXX
+
+```
+
+### Cai dat tanzu cli 
+
+````
+bash tanzu-cli.sh tcvn1985@gmail.com XXX
+````
 
 ===
 
