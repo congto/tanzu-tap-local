@@ -8,12 +8,12 @@ apt install git -y
 
 ```
 
-Tai bo cai
+### Tải bộ cài 
 ```
 git clone https://github.com/congto/tanzu-tap-local.git
 ```
 
-Cai dat
+### Cài đặt
 
 ```
 cd tanzu-tap-local
@@ -22,13 +22,23 @@ chmod +x *.sh
 
 ```
 
+### Cài đặt gói chuẩn bị 
 ```
 bash pre-install.sh
 ```
 
+### Cài đặt kind 
 ```
 bash kind-setup.sh
 ```
+
+
+```
+docker inspect -f '{{.NetworkSettings.IPAddress}} dev.local' dev.local | (sudo tee -a /etc/hosts)
+```
+
+
+
 
 ###########################
 
