@@ -6,7 +6,8 @@ glob=tanzu-framework-linux-amd64.tar
 # Based on: https://docs.vmware.com/en/Tanzu-Application-Platform/1.0/tap/GUID-install-general.html#update-prev-tap-tanzu-cli
 
 rm -rf /tmp/tanzu-cli           # Remove previously downloaded cli files
-rm ~/scripts/tanzu              # Remove CLI binary (executable)
+# rm ~/scripts/tanzu              # Remove CLI binary (executable)
+rm /usr/local/bin/tanzu             # Remove CLI binary (executable)
 rm -rf ~/.config/tanzu/         # current location # Remove config directory
 rm -rf ~/.tanzu/                # old location # Remove config directory
 rm -rf ~/.cache/tanzu           # remove cached catalog.yaml
