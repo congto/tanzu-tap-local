@@ -6,8 +6,8 @@ buildservice:
   kp_default_repository: dev.local:5000/build-service
   kp_default_repository_username: user
   kp_default_repository_password: password
-  tanzunet_username: $1
-  tanzunet_password: $2
+  tanzunet_username: USERTANZU
+  tanzunet_password: PASSTANZU
   enable_automatic_dependency_updates: true
 
 supply_chain: basic

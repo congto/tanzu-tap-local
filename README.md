@@ -68,8 +68,11 @@ bash tanzu-cli.sh tcvn1985@gmail.com XXX
 cp tap-values-template.yml tap-values.yml
 ```
 
-Mở file: `tap-values.yml` va sửa 2 tham số .
+```
+sed -i 's/USERTANZU/tcvn1985@gmail.com/g' tap-values.yml
 
+sed -i 's/PASSTANZU/XXXX/g' tap-values.yml
+```
 
 
 ### Cai plat form 
