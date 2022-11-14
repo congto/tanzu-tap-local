@@ -52,6 +52,25 @@ bash tanzu-cluster-essentials.sh tcvn1985@gmail.com XXX
 bash tanzu-cli.sh tcvn1985@gmail.com XXX
 ````
 
+
+### Sua file 
+
+```
+cp tap-values-template.yml tap-values.yml
+```
+
+Mở file: `tap-values.yml` va sửa 2 tham số .
+
+
+
+### Cai plat form 
+
+```
+
+bash tanzu-application-platform.sh tcvn1985@gmail.com XXX
+
+```
+
 ===
 
 
