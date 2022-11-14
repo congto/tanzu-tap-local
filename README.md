@@ -8,6 +8,13 @@ apt install git -y
 
 ```
 
+```
+systemctl stop apache2
+systemctl disable apache2
+omd stop monitoring
+omd rm monitoring
+```
+
 ### Tải bộ cài 
 ```
 git clone https://github.com/congto/tanzu-tap-local.git
@@ -37,7 +44,9 @@ bash kind-setup.sh
 docker inspect -f '{{.NetworkSettings.IPAddress}} dev.local' dev.local | (sudo tee -a /etc/hosts)
 ```
 
-
+```
+kubie ctx
+```
 
 ### Cai dat tanzu essentials
 
