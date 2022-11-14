@@ -24,4 +24,4 @@ export INSTALL_REGISTRY_PASSWORD=${tanzu_net_pass}
 cd /tmp/tanzu-cluster-essentials
 ./install.sh
 
-cp /tmp/tanzu-cluster-essentials/kapp ~/scripts/kapp
+cp /tmp/tanzu-cluster-essentials/kapp /usr/local/bin/kapp
